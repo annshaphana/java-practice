@@ -35,14 +35,14 @@
 //     console.log(a);
     
 // }
- for (let i = 1; i<=5 ; i++){
-    let line =" ";
-    for (let b = 1; b <=i; b++) {
-       line += i + " ";
+//  for (let i = 1; i<=5 ; i++){
+//     let line =" ";
+//     for (let b = 1; b <=i; b++) {
+//        line += i + " ";
         
-    }
-    console.log(line);
- }
+//     }
+//     console.log(line);
+//  }
 
 //  let i= 1;
 //  let row=5;
@@ -59,8 +59,8 @@
 //     console.log(line);
 //     i++;
 //  }
-let i=1;
-let n=5;
+// let i=1;
+// let n=5;
 
 // for (let i = 1; i <= n; i++) {
 //        let spaces = " ".repeat(n - i);
@@ -68,13 +68,84 @@ let n=5;
 //        console.log(spaces + stars);
 // }
 
-for (let i = 1; i <= n; i++){
-    let line = " "
+// for (let i = 1; i <= n; i++){
+//     let line = " "
     
-            for (let b = 1; b <=i; b++) {
-               line += i + " ";
+//             for (let b = 1; b <=i; b++) {
+//                line += i + " ";
                 
-            }
-            console.log(line);
-        }
+//             }
+//             console.log(line);
+//         }
+// for (i=0; i<5; i++);{
+//    for (let j = 0; j <=i; j++) {
+      
+//    }
+//    console.log("*");
+      
+//}
+
+// let text = "";
+
+// for (let i = 1; i <= 5; i++) {
+//   if (i === 3) { continue}
+//     for (let j = 1; j <= i; j++) {
+//       text += "*";
+//     }
     
+// }
+
+// console.log(text);
+
+// ------------ While ---------//
+
+// for (let i = 1; i <= 5; i++) {
+//    if (i===3) continue
+//    let num=' ';
+//    for (let j = 1; j <= i; j++) {
+//       num += i;
+      
+//    }
+//    console.log(num);
+// }
+
+// for (let i = 1; i <= 5; i++) {
+ 
+//    let num=' ';
+//    for (let j = 1; j <= i; j++) {
+//       if (i===3) continue
+//       num += i;
+      
+//    }
+//    console.log(num);
+// }
+// for (let i = 5; i >= 1 ; i--) {
+//    let line = " " ;
+//    for (let j = 1; j <= i ; j++) {
+//       line += i;
+
+//    }
+//    console.log(line);
+// }
+// let i =1;
+// while (i<10) {
+//    console.log(i);
+//    i++;
+// }
+
+// let i = 5;
+// while (i>0) {
+//    console.log(i);
+//    i--;
+// }
+// let t=1;
+
+// while (t<=6) {
+//  console.log("💘".repeat(t));
+//  t++;
+// }
+let t=6;
+while (t>0) {
+   console.log("*".repeat(t));
+   t--;
+}
