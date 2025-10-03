@@ -141,11 +141,45 @@
 // let t=1;
 
 // while (t<=6) {
-//  console.log("💘".repeat(t));
+//  console.log("⭐");
 //  t++;
 // }
-let t=6;
-while (t>0) {
-   console.log("*".repeat(t));
-   t--;
-}
+
+// let t=6;
+// while (t>0) {
+//    console.log("*".repeat(t));
+//    t--;
+// }
+
+// function main() {
+//    let i = 0;
+//    while (i<5) {
+//       console.log(i + " ");
+//       i++;
+//    }
+//    main()
+// }
+// let i=1;
+// while (i<=5) {
+//    let star=" ";
+//    let j=1;
+//    while (j<=i) {
+//       star += "*";
+//       j++;
+//    }
+//    console.log(star);
+//    i++
+// }
+
+let i = 5;
+do {
+   let star=" ";
+   let j=1
+
+   do {
+      star += "*";
+      j++;
+   } while (j<=i);
+   console.log(star);
+   i--;
+} while (i>=1);
